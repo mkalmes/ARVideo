@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'ARVideo' target in the 'ARVideo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define DEGREES_TO_RADIANS(__ANGLE__) ((__ANGLE__) / 180.0 * M_PI)

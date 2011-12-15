@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ARVideoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ARVideoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2899E5220DE3E06400AC0155 /* ARVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ARVideoViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* ARVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ARVideoViewController.m */; };
+		F509DB96130D31A400C96268 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509DB95130D31A400C96268 /* AVFoundation.framework */; };
+		F509DBFC130D35AA00C96268 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509DBFB130D35AA00C96268 /* CoreVideo.framework */; };
+		F509DC35130D3C6000C96268 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509DC34130D3C6000C96268 /* QuartzCore.framework */; };
+		F509DC74130D5E7500C96268 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509DC24130D3BB700C96268 /* CoreMedia.framework */; };
+		F5342FFF1338F990001980FE /* MKLineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F5342FFE1338F990001980FE /* MKLineSegment.m */; };
+		F5450AAA13C253F100FDAB2D /* MKDetectorHirzer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5450AA913C253F100FDAB2D /* MKDetectorHirzer.m */; };
+		F5475D2213C1D2D00064ACCB /* MKMarkerDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = F5475D2113C1D2D00064ACCB /* MKMarkerDetector.m */; };
+		F5475D2D13C1DB630064ACCB /* MKDetectorClarke.m in Sources */ = {isa = PBXBuildFile; fileRef = F5475D2C13C1DB630064ACCB /* MKDetectorClarke.m */; };
+		F577FDD813C3728B0080C8B1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F577FDD713C3728B0080C8B1 /* Settings.bundle */; };
+		F585C07013AFB1C400AE25CF /* MKMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = F585C06F13AFB1C400AE25CF /* MKMarker.m */; };
+		F5A0FA76132BFD1D00BCE4D4 /* MKEdgel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A0FA75132BFD1D00BCE4D4 /* MKEdgel.m */; };
+		F5C679F51316CC2E0043C68A /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C679F41316CC2E0043C68A /* GLView.m */; };
+		F5C67A111316D4510043C68A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C679EC1316C9390043C68A /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ARVideoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARVideoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ARVideoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARVideoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ARVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* ARVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARVideoViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* ARVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARVideoViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* ARVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARVideoViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ARVideo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARVideo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ARVideo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ARVideo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F509DB95130D31A400C96268 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F509DBFB130D35AA00C96268 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F509DC24130D3BB700C96268 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F509DC34130D3C6000C96268 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F51701651318155400D3C9C8 /* MKLinearFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLinearFeatures.h; sourceTree = "<group>"; };
+		F51701661318155400D3C9C8 /* MKLinearFeatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLinearFeatures.m; sourceTree = "<group>"; };
+		F51702271318525900D3C9C8 /* MKImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageProcessing.h; sourceTree = "<group>"; };
+		F5342FFD1338F990001980FE /* MKLineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLineSegment.h; sourceTree = "<group>"; };
+		F5342FFE1338F990001980FE /* MKLineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLineSegment.m; sourceTree = "<group>"; };
+		F5450AA813C253F100FDAB2D /* MKDetectorHirzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDetectorHirzer.h; sourceTree = "<group>"; };
+		F5450AA913C253F100FDAB2D /* MKDetectorHirzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDetectorHirzer.m; sourceTree = "<group>"; };
+		F5475D2013C1D2D00064ACCB /* MKMarkerDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMarkerDetector.h; sourceTree = "<group>"; };
+		F5475D2113C1D2D00064ACCB /* MKMarkerDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMarkerDetector.m; sourceTree = "<group>"; };
+		F5475D2B13C1DB630064ACCB /* MKDetectorClarke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDetectorClarke.h; sourceTree = "<group>"; };
+		F5475D2C13C1DB630064ACCB /* MKDetectorClarke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDetectorClarke.m; sourceTree = "<group>"; };
+		F577FDD713C3728B0080C8B1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F585C06E13AFB1C400AE25CF /* MKMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMarker.h; sourceTree = "<group>"; };
+		F585C06F13AFB1C400AE25CF /* MKMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMarker.m; sourceTree = "<group>"; };
+		F5A0FA74132BFD1D00BCE4D4 /* MKEdgel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEdgel.h; sourceTree = "<group>"; };
+		F5A0FA75132BFD1D00BCE4D4 /* MKEdgel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEdgel.m; sourceTree = "<group>"; };
+		F5C5C93E132CE5FF002C6B81 /* Vector2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2f.h; sourceTree = "<group>"; };
+		F5C679EC1316C9390043C68A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F5C679F31316CC2E0043C68A /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		F5C679F41316CC2E0043C68A /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				F509DB96130D31A400C96268 /* AVFoundation.framework in Frameworks */,
+				F509DBFC130D35AA00C96268 /* CoreVideo.framework in Frameworks */,
+				F509DC35130D3C6000C96268 /* QuartzCore.framework in Frameworks */,
+				F509DC74130D5E7500C96268 /* CoreMedia.framework in Frameworks */,
+				F5C67A111316D4510043C68A /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5475D2013C1D2D00064ACCB /* MKMarkerDetector.h */,
+				F5475D2113C1D2D00064ACCB /* MKMarkerDetector.m */,
+				1D3623240D0F684500981E51 /* ARVideoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ARVideoAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* ARVideoViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* ARVideoViewController.m */,
+				F5C679F31316CC2E0043C68A /* GLView.h */,
+				F5C679F41316CC2E0043C68A /* GLView.m */,
+				F51701651318155400D3C9C8 /* MKLinearFeatures.h */,
+				F51701661318155400D3C9C8 /* MKLinearFeatures.m */,
+				F51702271318525900D3C9C8 /* MKImageProcessing.h */,
+				F5A0FA74132BFD1D00BCE4D4 /* MKEdgel.h */,
+				F5A0FA75132BFD1D00BCE4D4 /* MKEdgel.m */,
+				F5342FFD1338F990001980FE /* MKLineSegment.h */,
+				F5342FFE1338F990001980FE /* MKLineSegment.m */,
+				F5C5C93E132CE5FF002C6B81 /* Vector2f.h */,
+				F585C06E13AFB1C400AE25CF /* MKMarker.h */,
+				F585C06F13AFB1C400AE25CF /* MKMarker.m */,
+				F5475D2B13C1DB630064ACCB /* MKDetectorClarke.h */,
+				F5475D2C13C1DB630064ACCB /* MKDetectorClarke.m */,
+				F5450AA813C253F100FDAB2D /* MKDetectorHirzer.h */,
+				F5450AA913C253F100FDAB2D /* MKDetectorHirzer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ARVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F509DB95130D31A400C96268 /* AVFoundation.framework */,
+				F509DBFB130D35AA00C96268 /* CoreVideo.framework */,
+				F509DC24130D3BB700C96268 /* CoreMedia.framework */,
+				F509DC34130D3C6000C96268 /* QuartzCore.framework */,
+				F5C679EC1316C9390043C68A /* OpenGLES.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ARVideo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* ARVideoViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* ARVideo-Info.plist */,
+				F577FDD713C3728B0080C8B1 /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ARVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ARVideo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARVideo;
+			productName = VideoPerformance;
+			productReference = 1D6058910D05DD3D006BFB54 /* ARVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ARVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ARVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* ARVideoViewController.xib in Resources */,
+				F577FDD813C3728B0080C8B1 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ARVideoAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* ARVideoViewController.m in Sources */,
+				F5C679F51316CC2E0043C68A /* GLView.m in Sources */,
+				F5A0FA76132BFD1D00BCE4D4 /* MKEdgel.m in Sources */,
+				F5342FFF1338F990001980FE /* MKLineSegment.m in Sources */,
+				F585C07013AFB1C400AE25CF /* MKMarker.m in Sources */,
+				F5475D2213C1D2D00064ACCB /* MKMarkerDetector.m in Sources */,
+				F5475D2D13C1DB630064ACCB /* MKDetectorClarke.m in Sources */,
+				F5450AAA13C253F100FDAB2D /* MKDetectorHirzer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ARVideo_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "ARVideo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ARVideo;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.3;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ARVideo_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "ARVideo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ARVideo;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ARVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ARVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
