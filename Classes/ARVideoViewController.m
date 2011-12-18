@@ -80,7 +80,8 @@
 	AVCaptureVideoDataOutput *captureOutput = [[AVCaptureVideoDataOutput alloc] init];
 	captureOutput.alwaysDiscardsLateVideoFrames = YES;
 
-	[captureOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
+	dispatch_queue_t queue = dispatch_queue_create("net.mkalmes.markerqueue", DISPATCH_QUEUE_SERIAL);
+	[captureOutput setSampleBufferDelegate:self queue:queue];
 
 	// Pixelformat YCbCr, RGB
 	NSString* key = (NSString*)kCVPixelBufferPixelFormatTypeKey;
@@ -139,8 +140,10 @@
 		
 		CVImageBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
 		[self.detector detectMarkerInImageBuffer:imageBuffer];
-		
-		[self.arView updateModelCacheData:self.lines];
+
+		dispatch_async(dispatch_get_main_queue(), ^{
+			[self.arView updateModelCacheData:self.lines];
+		});
 		
 		self.endTime = CACurrentMediaTime();
 		self.fpsValue = 1.0 / (self.endTime - self.startTime);
