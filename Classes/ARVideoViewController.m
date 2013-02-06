@@ -88,7 +88,7 @@
 	// kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange - default pixelformat ipod touch
 	// kCVPixelFormatType_32BGRA
 	NSNumber* value = [NSNumber numberWithUnsignedInt:kCVPixelFormatType_32BGRA];
-	NSDictionary* videoSettings = [NSDictionary dictionaryWithObject:value forKey:key];
+	NSDictionary* videoSettings = @{key: value};
 	[captureOutput setVideoSettings:videoSettings];
 
 	// Session presets low, medium, high, 640x480

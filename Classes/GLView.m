@@ -188,8 +188,7 @@ const int kMaxLinesegments	= 8192 * 2; // 8192 Lines w/ 2 vertices
 	CAEAGLLayer* eaglLayer = (CAEAGLLayer*)self.layer;
 
 	eaglLayer.opaque = NO;
-	eaglLayer.drawableProperties = [NSDictionary dictionaryWithObjectsAndKeys:
-									[NSNumber numberWithBool:NO], kEAGLDrawablePropertyRetainedBacking, kEAGLColorFormatRGBA8, kEAGLDrawablePropertyColorFormat, nil];
+	eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking: @NO, kEAGLDrawablePropertyColorFormat: kEAGLColorFormatRGBA8};
 
 	eaglLayer.contentsGravity = kCAGravityResizeAspectFill;
 	eaglLayer.transform = CATransform3DRotate(CATransform3DIdentity, M_PI/2.0f, 0, 0, 1);
