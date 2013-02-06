@@ -14,6 +14,7 @@
 		2899E5220DE3E06400AC0155 /* ARVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ARVideoViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ARVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ARVideoViewController.m */; };
+		4933A1C116C2B1C6001ED0DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933A1C016C2B1C6001ED0DB /* Default-568h@2x.png */; };
 		F509DB96130D31A400C96268 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509DB95130D31A400C96268 /* AVFoundation.framework */; };
 		F509DBFC130D35AA00C96268 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509DBFB130D35AA00C96268 /* CoreVideo.framework */; };
 		F509DC35130D3C6000C96268 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F509DC34130D3C6000C96268 /* QuartzCore.framework */; };
@@ -42,6 +43,7 @@
 		28D7ACF70DDB3853001CB0EB /* ARVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARVideoViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ARVideo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARVideo_Prefix.pch; sourceTree = "<group>"; };
+		4933A1C016C2B1C6001ED0DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ARVideo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ARVideo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		F509DB95130D31A400C96268 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F509DBFB130D35AA00C96268 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -127,6 +129,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4933A1C016C2B1C6001ED0DB /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -226,6 +229,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* ARVideoViewController.xib in Resources */,
 				F577FDD813C3728B0080C8B1 /* Settings.bundle in Resources */,
+				4933A1C116C2B1C6001ED0DB /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
