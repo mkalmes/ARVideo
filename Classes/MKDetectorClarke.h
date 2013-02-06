@@ -30,7 +30,7 @@ static inline void MKDetectorClarkeConvert420VPixelBufferToMonochrome(CVPixelBuf
 	markerPool_t* markers;
 }
 
-@property (nonatomic, assign) id <MKMarkerDetectorDelegate> delegate;
+@property (nonatomic, weak) id <MKMarkerDetectorDelegate> delegate;
 @property (nonatomic, assign) int imageWidth;
 @property (nonatomic, assign) int imageHeight;
 @property (nonatomic, assign, getter = isDrawingGrid) BOOL drawGrid;

@@ -43,31 +43,26 @@ const int kDetectorHirzerMinEdgels		= 5;
 
 	edgels = MKEdgelGetMemoryPool();
 	if (!edgels) {
-		[self dealloc];
 		return nil;
 	}
 
 	linesegments = MKLineSegmentGetMemoryPool();
 	if (!linesegments) {
-		[self dealloc];
 		return nil;
 	}
 
 	mergedLines = MKLineSegmentGetMemoryPool();
 	if (!mergedLines) {
-		[self dealloc];
 		return nil;
 	}
 
 	lineChains = MKLineSegmentGetMemoryPool();
 	if (!lineChains) {
-		[self dealloc];
 		return nil;
 	}
 
 	markers = MKMarkerGetMemoryPool();
 	if (!markers) {
-		[self dealloc];
 		return nil;
 	}
 
@@ -85,7 +80,6 @@ const int kDetectorHirzerMinEdgels		= 5;
 	MKLineSegmentFreeMemoryPool(lineChains);
 	MKMarkerFreeMemoryPool(markers);
 
-	[super dealloc];
 }
 
 - (void)detectMarkerInImageBuffer:(CVImageBufferRef)imageBuffer {

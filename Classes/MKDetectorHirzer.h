@@ -69,7 +69,7 @@ static inline unsigned char MKDetectorHirzerGetRGBValue(const unsigned char* col
 	markerPool_t* markers;
 }
 
-@property (nonatomic, assign) id <MKMarkerDetectorDelegate> delegate;
+@property (nonatomic, weak) id <MKMarkerDetectorDelegate> delegate;
 @property (nonatomic, assign) int imageWidth;
 @property (nonatomic, assign) int imageHeight;
 @property (nonatomic, assign, getter = isDrawingGrid) BOOL drawGrid;

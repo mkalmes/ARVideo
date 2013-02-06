@@ -155,7 +155,7 @@ const int kMaxLinesegments	= 8192 * 2; // 8192 Lines w/ 2 vertices
 
 @interface GLView ()
 
-@property (nonatomic, retain, readwrite) CADisplayLink *displayLink;
+@property (nonatomic, strong, readwrite) CADisplayLink *displayLink;
 
 - (void)drawScene:(CADisplayLink *)sender;
 
@@ -197,7 +197,6 @@ const int kMaxLinesegments	= 8192 * 2; // 8192 Lines w/ 2 vertices
 	self.context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];
 
 	if (!self.context || ![EAGLContext setCurrentContext:self.context]) {
-		[self release];
 		return nil;
 	}
 
@@ -307,15 +306,10 @@ const int kMaxLinesegments	= 8192 * 2; // 8192 Lines w/ 2 vertices
 	if ([EAGLContext currentContext] == self.context) {
 		[EAGLContext setCurrentContext:nil];
 	}
-	self.context = nil;
 
 	[self.displayLink invalidate];
-	self.displayLink = nil;
 
-	self.drawModel = nil;
-	self.gridModel = nil;
 
-    [super dealloc];
 }
 
 @end

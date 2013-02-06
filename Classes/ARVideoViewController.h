@@ -8,17 +8,17 @@
 
 }
 
-@property (nonatomic, retain) AVCaptureSession* captureSession;
-@property (nonatomic, retain) AVCaptureVideoPreviewLayer* previewLayer;
-@property (nonatomic, retain) MKMarkerDetector *detector;
+@property (nonatomic, strong) AVCaptureSession* captureSession;
+@property (nonatomic, strong) AVCaptureVideoPreviewLayer* previewLayer;
+@property (nonatomic, strong) MKMarkerDetector *detector;
 @property (nonatomic, assign) double startTime;
 @property (nonatomic, assign) double endTime;
 @property (nonatomic, assign) double fpsValue;
-@property (assign) NSTimer* updateTimer;
+@property (weak) NSTimer* updateTimer;
 @property (nonatomic, assign) int counter;
 
-@property (nonatomic, retain) IBOutlet GLView* arView;
-@property (nonatomic, assign) IBOutlet UILabel* fpsLabel;
+@property (nonatomic, strong) IBOutlet GLView* arView;
+@property (nonatomic, weak) IBOutlet UILabel* fpsLabel;
 
 - (void)readSettings;
 - (void)settingsChanged:(id)sender;

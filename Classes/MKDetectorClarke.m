@@ -78,7 +78,6 @@ const int kDetectorClarkeMinEdgels		= 5;
 	MKLineSegmentFreeMemoryPool(lineChains);
 	MKMarkerFreeMemoryPool(markers);
 
-	[super dealloc];
 }
 
 - (void)detectMarkerInImageBuffer:(CVImageBufferRef)imageBuffer {

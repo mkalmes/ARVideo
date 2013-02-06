@@ -7,7 +7,7 @@
 
 @interface ARVideoViewController ()
 
-@property (nonatomic, retain) NSMutableData *lines;
+@property (nonatomic, strong) NSMutableData *lines;
 
 - (void)initCapture;
 - (void)updateFPSLabel;
@@ -258,12 +258,5 @@
 - (void)viewDidUnload {
 }
 
-- (void)dealloc {
-	self.lines = nil;
-	self.captureSession = nil;
-	self.previewLayer = nil;
-	self.detector = nil;
-    [super dealloc];
-}
 
 @end

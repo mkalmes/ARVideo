@@ -26,9 +26,9 @@ typedef struct linemodel_vertex_s {
 	GLuint linesVBO;
 }
 
-@property (nonatomic, retain) EAGLContext *context;
-@property (nonatomic, retain) NSData *drawModel;
-@property (nonatomic, retain) NSData *gridModel;
+@property (nonatomic, strong) EAGLContext *context;
+@property (nonatomic, strong) NSData *drawModel;
+@property (nonatomic, strong) NSData *gridModel;
 
 - (void)setupView;
 
